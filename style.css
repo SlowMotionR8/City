@@ -1,0 +1,124 @@
+body{
+    margin:0px;
+    width: 100%;
+    height: 100%;
+}
+.block{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-row-gap: 80px;
+    align-content: center;
+    padding: 30px;
+    grid-column-gap: 40px;
+}
+
+.header{
+    display: grid;
+    height: 200px;
+    background: url(assets/bg.png) ;
+    background-position: top;
+    width: 1875px;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+   
+}
+
+.header h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    word-spacing:50px;
+    justify-content: center;
+    letter-spacing: 8px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav{
+    display: grid;
+    justify-content: center;
+    
+  }
+
+  ul li{
+    display: inline;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    background-color: #23346e;
+  }
+
+  .block1{
+    display: grid;
+    padding-top:50px;
+    font-size: 25px;
+    padding: 23px;
+    
+  }
+
+  .block2{
+    display: grid;
+    background: url(assets/oldphoto.jpg) no-repeat;
+    height: 450px;
+    width: 350px;
+    grid-template-rows: 350px 450px;
+  }
+
+  .block3{
+    display: grid;
+    text-align: center;
+    
+  }
+
+  .block4{
+    display: grid;
+    text-align: center;
+  }
+  .block5{
+    display: grid;
+    text-align: center;
+  }
+  .block6{
+    display: grid;
+    text-align: center;
+  }
+
+  .container2{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr 2fr;
+    padding-left: 30px;
+    padding-top: 30px;
+    grid-column-gap: 40px;
+    padding-bottom: 200px;
+    
+  }
+
+  .news h2{
+    padding-left: 30px;
+  }
+    
+  footer{
+    display: grid;
+    width:100%;
+    height: 120px;
+    background-color: #23346e;
+    color: white;
+  }
+
+  hr{
+    display: block;
+    border: 1px solid #23346e ;
+}
